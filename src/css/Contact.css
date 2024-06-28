@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&display=swap");
+
+.contact {
+  background: linear-gradient(90deg, #e3e3e4 45%, #d8d8da 78%);
+}
+
+.contact-top {
+  height: 408px;
+  object-fit: contain;
+}
+
+.contact-top .img-one {
+  width: 100%;
+  height: 460px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.82) 46%,
+    rgba(255, 255, 255, 0.37307423) 66%
+  );
+}
+
+.banner-btm {
+  width: 100%;
+  height: 100px;
+}
+
+.section-left img {
+  width: 500px;
+}
+
+.title-one {
+  font: normal bold 30px/1 "Jost";
+}
+
+.title-two {
+  font: normal bold 35px/1 "Caveat";
+  color: #0c623a;
+  font-weight: 900;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4rem 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-form input {
+  border: none;
+  border-bottom: 2px solid black;
+  height: 40px;
+  background: none;
+  outline: none;
+}
+
+.submit-btn {
+  border: none;
+  outline: none;
+  padding: 13px 0;
+  width: 150px;
+  font: normal bold 17px/1 "Jost";
+  background-color: #0c623a;
+  color: white;
+  margin-top: 3rem;
+  transition: 0.4s all ease-in-out;
+  border-radius: 20px;
+}
+
+.submit-btn:hover {
+  border: 1px solid #0c623a;
+  background-color: white;
+  color: green;
+}
+
+/* Media Query */
+@media (max-width: 1060px) {
+  .contact-section {
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .section-left img {
+    width: 100%;
+  }
+}
+
+/* Media Queries for larger desktops (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .contact-section {
+    padding: 2rem 1rem;
+  }
+
+  .title-one, .title-two {
+    font-size: 25px;
+  }
+
+  .submit-btn {
+    width: 130px;
+    font-size: 15px;
+  }
+}
+
+/* Media Queries for small desktops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-left img {
+    width: 70%;
+  }
+
+  .title-one, .title-two {
+    font-size: 22px;
+  }
+
+  .submit-btn {
+    width: 120px;
+    font-size: 14px;
+  }
+}
+
+/* Media Queries for iPads, Tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-left img {
+    width: 80%;
+  }
+
+  .title-one, .title-two {
+    font-size: 20px;
+  }
+
+  .submit-btn {
+    width: 110px;
+    font-size: 13px;
+  }
+}
+
+/* Media Queries for Mobile devices (320px - 480px) */
+@media (max-width: 480px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .section-left img {
+    width: 90%;
+  }
+
+  .title-one, .title-two {
+    font-size: 18px;
+  }
+
+  .submit-btn {
+    width: 100px;
+    font-size: 12px;
+  }
+}
+
+/* Media Queries for Mobile devices (345px) */
+@media (max-width: 345px) {
+  .contact-section {
+    padding: 0.5rem;
+  }
+
+  .title-one, .title-two {
+    font-size: 16px;
+  }
+
+  .submit-btn {
+    width: 90px;
+    font-size: 11px;
+  }
+}
+
+/* Media Query */
+@media (max-width: 1060px) {
+  .contact-section {
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .section-left img {
+    width: 100%;
+  }
+}

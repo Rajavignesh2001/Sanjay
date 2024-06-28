@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap");
+.Navbar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-top-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.nav-logo {
+  width: 145px;
+  object-fit: cover;
+  margin-left: 6rem;
+}
+
+.Navbar > .nav-items > a {
+  font: normal normal 20px/1 "Jost";
+  font-weight: 500;
+  text-decoration: none;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+  color: black;
+}
+.Navbar > .nav-items {
+  margin-right: 30px;
+}
+.Navbar > .nav-items > a:hover {
+  opacity: 1;
+  color: white;
+  border: 1px solid #0c623a;
+  border-radius: 70px;
+  background-color: #0c623a;
+  padding: 13px;
+  transition: all 0.5s ease-in-out;
+}
+.Navbar > .nav-items > a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  transition: all 0.45s;
+}
+.Navbar > .nav-items > a:hover::before {
+  width: 100%;
+}
+.Navbar > .nav-toggle {
+  display: none;
+}
+
+/* Other existing styles */
+
+/* Add active class styling */
+.Navbar > .nav-items > a.active {
+  font-size: 2rem; /* Set text color */
+  font-weight: bolder; /* Make the font bold */
+}
+
+/* Add transitions for smooth highlighting effect */
+.Navbar > .nav-items > a {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Media Querry */
+
+@media (max-width: 1060px) {
+  .Navbar > .nav-items {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    background: #0c623a;
+    border-radius: 15px;
+    width: 65%;
+    height: 80%;
+    color: white;
+    transform: translateX(-100%);
+    transition: all 0.45s;
+    gap: 2rem;
+  }
+  .nav-logo {
+    width: 80px;
+    margin: 10px;
+  }
+  .nav-bottom {
+    display: none;
+  }
+  .nav-logo-image {
+    background-color: white;
+    border-radius: 20px;
+  }
+  .Navbar {
+    background-color: #0c623a;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  .Navbar > .nav-items > a {
+    color: white;
+    font: normal normal 18px/1 "Jost";
+  }
+  .Navbar > .nav-items.open {
+    transform: translateX(0);
+  }
+  .Navbar > .nav-toggle {
+    display: flex;
+    width: 50;
+    height: 40px;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.8;
+    margin-right: 20px;
+  }
+  .nav-toggle > .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background: #ffffff;
+    transition: all 0.45s ease-in-out;
+  }
+  .nav-toggle > .bar::before,
+  .nav-toggle > .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+  }
+  .nav-toggle > .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    right: 0;
+  }
+  .nav-toggle > .bar::after {
+    width: 32px;
+    transform: translateX(8px);
+  }
+  .nav-toggle.open > .bar {
+    transform: translateX(-40px);
+    background: transparent;
+  }
+  .nav-toggle.open > .bar::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
+  }
+  .nav-toggle.open > .bar::after {
+    transform: rotate(-45deg) translate(26px, 26px);
+  }
+}
+
+@media (max-width: 480px) {
+  .Navbar > .nav-items {
+    width: 70%;
+    height: auto;
+  }
+  .Navbar > .nav-items > a {
+    padding: 10px;
+  }
+  .Navbar > .nav-toggle {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 345px) {
+  .Navbar > .nav-items {
+    width: 50%;
+    height: auto;
+  }
+  .Navbar > .nav-items > a {
+    padding: 8px;
+  }
+  .Navbar > .nav-toggle {
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .Navbar > .nav-items {
+    width: 80%;
+    height: auto;
+  }
+  .Navbar > .nav-items > a {
+    padding: 15px;
+  }
+  .Navbar > .nav-toggle {
+    margin-right: 15px;
+  }
+}
+
+/* Media Query for screen width 769px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Navbar > .nav-items {
+    width: 70%;
+    height: auto;
+  }
+  .Navbar > .nav-items > a {
+    padding: 18px;
+  }
+  .Navbar > .nav-toggle {
+    margin-right: 20px;
+  }
+}
+
+/* Media Query for screen width 1025px to 1200px */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .Navbar > .nav-items {
+    width: 60%;
+    height: auto;
+  }
+  .Navbar > .nav-items > a {
+    padding: 20px;
+  }
+  .Navbar > .nav-toggle {
+    margin-right: 25px;
+  }
+}

@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap");
+.about {
+  background: linear-gradient(90deg, #e3e3e4 45%, #d8d8da 78%);
+}
+.about-top {
+  height: 408px;
+  object-fit: contain;
+}
+.about-top .img-one {
+  width: 100%;
+  height: 462px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.82) 46%,
+    rgba(255, 255, 255, 0.37307423) 66%
+  );
+}
+.banner-btm-about {
+  width: 100%;
+  height: 100px;
+}
+
+.about-doctor {
+  display: flex;
+  justify-content: center;
+  margin-top: -8rem;
+ 
+}
+.doctor-right {
+  border: 2px solid #0c623a;
+}
+.doctor-right img {
+  width: 420px;
+  height: 446px;
+}
+ .doctor-left {
+  background-color: #0c623a;
+  color: white;
+  height: 450px;
+  width: 36%;
+  padding-left: 5rem;
+  padding-top: 2.5rem;
+  
+}
+.doctor-left p {
+  width: 520px;
+  font: normal bold 18px/30px "Jost";
+  margin-bottom: 1rem;
+}
+.doctor-second-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3rem;
+}
+.doctor-second-middle img {
+  width: 450px;
+  padding: 0 1rem;
+}
+.doctor-second-first,
+.doctor-second-third {
+  padding: 8rem 2rem;
+  background-color: white;
+  border: 2px solid #0c623a;
+}
+.doctor-second-first p,
+.doctor-second-third p {
+  font: normal 20px/34px "Jost";
+  width: 300px;
+}
+/* Our Services */
+.our-services {
+  background-color: #0c623a;
+  color: white;
+  margin-top: -3rem;
+  padding: 5rem 0;
+}
+.services-right img {
+  width: 550px;
+  border-radius: 10px;
+}
+.our-service-title {
+  font: normal bold 25px/1 "Jost";
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.services-flex {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  border: 2px solid white;
+  margin: 0 3rem;
+}
+.services-left p {
+  font: normal bold 17px/30px "Jost";
+  width: 500px;
+}
+/* Choose Us */
+.choose-us {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.choose-left {
+  background-color: #0c623a;
+  width: 540px;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.choose-left img {
+  width: 500px;
+  margin-top: -4rem;
+  border-radius: 10px;
+}
+.choose-list li {
+  list-style: disc;
+  color: #0c623a;
+  font: normal bold 20px/1 "Jost";
+  margin-bottom: 2rem;
+}
+/* Contact us about */
+.contact-us-about {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+}
+.contact-us-about button {
+  outline: none;
+  border: none;
+  font: normal bold 23px/1 "Jost";
+  background-color: #0c623a;
+  padding: 1rem 4rem;
+  color: white;
+  border-radius: 20px;
+  transition: 0.5s all ease-in-out;
+}
+.contact-us-about button:hover {
+  background-color: white;
+  color: #0c623a;
+  border: 1px solid #0c623a;
+}
+
+/* Media Querry */
+@media (max-width: 1060px) {
+.about-doctor{
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 1rem;
+}
+.doctor-left p{
+  width: 100%;
+}
+.doctor-right img{
+  width: 100%;
+}
+.doctor-second-section{
+  flex-wrap: wrap;
+  margin: 0;
+  flex-direction: row;
+  gap: 15px;
+}
+.doctor-second-middle img{
+  width: 300px;
+}
+.doctor-second-first, .doctor-second-third{
+  padding: 20px;
+}
+.services-flex{
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+}
+.choose-us{
+  flex-wrap: wrap;
+}
+.choose-left img{
+  width: 100%;
+  padding: 10px;
+}
+.services-right img{
+  width: 100%;
+}
+.services-left p{
+  width: 100%;
+  padding: 10px;
+}
+.doctor-left{
+  padding: 10px;
+}
+
+}
+
+/* Media Queries */
+
+/* Mobile devices (320px - 480px) */
+@media (max-width: 480px) {
+  .about-doctor {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 1rem;
+  }
+  .doctor-left {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+  }
+  .doctor-left p {
+    width: 100%;
+  }
+  .doctor-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 70%;
+  }
+  .doctor-right {
+   width: 80%;
+   border-radius: 70%;
+  }
+  .doctor-second-section {
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .doctor-second-middle img {
+    width: 100%;
+  }
+  .doctor-second-first,
+  .doctor-second-third {
+    padding: 20px;
+  }
+  .services-flex {
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+  }
+  .choose-us {
+    flex-wrap: wrap;
+  }
+  .choose-left img {
+    width: 100%;
+    padding: 10px;
+  }
+  .services-right img {
+    width: 100%;
+  }
+  .services-left p {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* iPads, Tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .about-doctor {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 1rem;
+  }
+  .doctor-left {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+  }
+  .doctor-left p {
+    width: 100%;
+  }
+  .doctor-right img {
+    width: 100%;
+    height: auto;
+  }
+  .doctor-second-section {
+    flex-wrap: wrap;
+    margin: 0;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .doctor-second-middle img {
+    width: 100%;
+  }
+  .doctor-second-first,
+  .doctor-second-third {
+    padding: 20px;
+  }
+  .services-flex {
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+  }
+  .choose-us {
+    flex-wrap: wrap;
+  }
+  .choose-left img {
+    width: 100%;
+    padding: 10px;
+  }
+  .services-right img {
+    width: 100%;
+  }
+  .services-left p {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
