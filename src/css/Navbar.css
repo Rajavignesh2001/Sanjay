@@ -12,7 +12,7 @@
   color: white;
 }
 .nav-logo {
-  width: 120px;
+  width: 107px;
   object-fit: cover;
   margin-left: 6rem;
 }
@@ -58,8 +58,9 @@
 
 /* Add active class styling */
 .Navbar > .nav-items > a.active {
-  font-size: 2rem; /* Set text color */
-  font-weight: bolder; /* Make the font bold */
+  font-size: 1.2rem; /* Set text color */
+  font-weight: bold; /* Make the font bold */
+  
 }
 
 /* Add transitions for smooth highlighting effect */

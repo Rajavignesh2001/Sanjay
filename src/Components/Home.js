@@ -5,7 +5,7 @@ import bannerBtm from "../Assets/banner-btm.png";
 import knowledgeRight from "../Assets/knowledge-right.png";
 import knowledgeLeft from "../Assets/knowledge-left.png";
 import homeTwo from "../Assets/home-two.png";
-import logo from "../Assets/logo2.png";
+import logo from "../Assets/logo.png";
 import homeLeaf from "../Assets/about-btn.png";
 import { Link } from "react-router-dom";
 
@@ -67,18 +67,25 @@ function Home() {
         </div>
       </div>
       <div className="read-more">
-        <div
+        <Link
+          to="/services"
           style={{
-            display: "flex",
-            gap: "10px",
-            alignItems: "center",
-            float: "right",
-            cursor: "pointer",
+            textDecoration: "none",
           }}
         >
-          <h2 className="title-one">Read</h2>
-          <h3 className="title-two">More . . .</h3>
-        </div>
+          <div
+            style={{
+              display: "flex",
+              gap: "10px",
+              alignItems: "center",
+              float: "right",
+              cursor: "pointer",
+            }}
+          >
+            <h2 className="title-one">Read</h2>
+            <h3 className="title-two">More . . .</h3>
+          </div>
+        </Link>
       </div>
       <div className="our-remedies"></div>
       <div className="home-section-two">

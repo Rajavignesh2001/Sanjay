@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../Assets/logo.png";
 import "../css/Navbar.css";
@@ -12,6 +12,11 @@ const Navbar = () => {
       setIsOpen(false);
     }
   };
+
+  useEffect(() => {
+    // Close the menu when the route changes
+    setIsOpen(false);
+  }, [location]);
 
   return (
     <div className="Navbar">

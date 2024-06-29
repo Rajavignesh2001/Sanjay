@@ -4,7 +4,7 @@ import "../css/Footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
-import { MdAddLocationAlt } from "react-icons/md";
+import { FaYoutube } from 'react-icons/fa';
 import logo from "../Assets/logo.png";
 function Footer() {
   const location = useLocation();
@@ -32,16 +32,16 @@ function Footer() {
 
         <div className="footer-right">
           <a href="https://www.facebook.com/deepika.ravisankar?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
-            <FaFacebookF className="footer-icon" style={{ color: '#0c623' }} />
+            <FaFacebookF className="footer-icon" style={{ color: '#0c623a' }} />
           </a>
           <a href="https://twitter.com/your_twitter_handle" target="_blank" rel="noopener noreferrer">
-            <FaTwitter className="footer-icon" style={{ color: '#0c623' }} />
+            <FaTwitter className="footer-icon" style={{ color: '#0c623a' }} />
           </a>
           <a href="https://www.instagram.com/deepi_ravisankar?igsh=MW92dmkxaWlxYWY4NA==" target="_blank" rel="noopener noreferrer">
-            <RiInstagramFill className="footer-icon" style={{ color: '#0c623' }} />
+            <RiInstagramFill className="footer-icon" style={{ color: '#0c623a' }} />
           </a>
           <a href="https://youtube.com/@drdeepikaravisankar5939?si=yKZlRzJoRdXOhtwc" target="_blank" rel="noopener noreferrer">
-            <MdAddLocationAlt className="footer-icon" style={{ color: '#0c623' }} />
+            <FaYoutube className="footer-icon" style={{ color: '#0c623a' }} />
           </a>  
         </div>
       </div>

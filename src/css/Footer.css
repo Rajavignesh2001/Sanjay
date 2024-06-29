@@ -7,11 +7,12 @@
   border-top: 2px solid #000;
   padding: 2rem 0;
 }
-.footer-main{
+.footer-main {
   background: linear-gradient(90deg, #e3e3e4 45%, #d8d8da 78%);
   padding-top: 3rem;
   padding-left: 4rem;
-  padding-right: 4rem;}
+  padding-right: 4rem;
+}
 .footer-logo {
   width: 100px;
 }
@@ -24,11 +25,11 @@
   font: normal bold 18px/1 "Jost";
   color: black;
 }
-.footer-link:hover{
+.footer-link:hover {
   color: green;
 }
-.footer-link:active{
-  font-size: 2rem; /* Set text color */
+.footer-link:active {
+  font-size: 1rem; /* Set text color */
   font-weight: bolder; /* Make the font bold */
 }
 .footer-icon {
@@ -46,23 +47,23 @@
 }
 
 .footer-link.active-link {
-  font-size: 2rem; /* Set text size */
+  font-size: 1.5em; /* Set text size */
   font-weight: bolder; /* Make the font bold */
+  color:#0c623a ;
 }
 
 /* Media Querry */
 @media (max-width: 1060px) {
-.footer-middle{
-  flex-wrap: wrap;
-  justify-content: center;
+  .footer-middle {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .footer-main {
+    padding: 10px;
+  }
 }
-.footer-flex{
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-}
-.footer-main{
-  padding: 10px;
-}
-}
-
