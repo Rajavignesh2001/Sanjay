@@ -66,7 +66,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="read-more">
+      {/* <div className="read-more">
         <Link
           to="/services"
           style={{
@@ -86,7 +86,18 @@ function Home() {
             <h3 className="title-two">More . . .</h3>
           </div>
         </Link>
+      </div> */}
+
+      <div className="read-more">
+        <Link to="/services" className="read-more-link">
+          <div className="read-more-content">
+            <h2 className="title-one">Read</h2>
+            <h3 className="title-two">More . . .</h3>
+          </div>
+        </Link>
       </div>
+
+      
       <div className="our-remedies"></div>
       <div className="home-section-two">
         <img className="home-main-img" src={homeTwo} alt="Home Two" />

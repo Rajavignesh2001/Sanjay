@@ -60,6 +60,18 @@
 }
 .read-more {
   padding: 0 5rem;
+  text-align: right; /* Aligns content to the right */
+}
+.title-one,
+.title-two {
+  display: inline; /* Ensures they are on the same line */
+  text-decoration: none !important;/* Removes underline */
+  color: #0c623a; /* Changes font color to green */
+  margin: 2px;
+}
+.read-more-link{
+  text-decoration: none !important;/* Removes underline */
+
 }
 /* Our remedies */
 
