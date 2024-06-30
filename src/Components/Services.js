@@ -157,6 +157,7 @@ function Services() {
                 display: "flex",
                 gap: "10px",
                 alignItems: "center",
+               
               }}
             >
               <h3 className="title-two">Ayurvedic</h3>
@@ -209,9 +210,10 @@ function Services() {
             gap: "10px",
             alignItems: "center",
             marginBottom: "2rem",
+           
           }}
         >
-          <h2 className="title-one">Wellness</h2>
+          <h2 className="title-onee">Wellness</h2>
           <h3 className="title-twoo">Consultations</h3>
         </div>
         <div className="wellness-flex">

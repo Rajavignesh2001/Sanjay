@@ -114,6 +114,10 @@ html {
   color: white;
 }
 
+.title-onee {
+  color: white;
+}
+
 .title-twoo {
   font: normal bold 35px/1 "Caveat";
   font-weight: 900;
@@ -158,6 +162,9 @@ html {
   .services-section {
     flex-wrap: wrap;
     padding: 1rem;
+  }
+  .service-top .img-one{
+    margin-top: -12px;
   }
   .our-products {
     padding: 10px;
@@ -237,6 +244,10 @@ html {
     margin-bottom: 10px;
     width: 100%;
     padding: 10px;
+  }
+  .product-card:last-child {
+    background-color: white;
+    color: green;
   }
   .product-title {
     font-size: 18px;
@@ -371,9 +382,9 @@ html {
     top: -0.3rem;
   }
   .products-flex {
-    gap: 3rem;
+    gap: 2.5rem;
   }
   .product-card {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 }

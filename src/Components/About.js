@@ -26,7 +26,7 @@ function About() {
               marginBottom: "2rem",
             }}
           >
-            <h2 className="title-one">We Are</h2>
+            <h2 style={{ color: "white" }} className="title-one">We Are</h2>
             <h3 style={{ color: "white" }} className="title-two">
               Serene Ayurvedic
             </h3>

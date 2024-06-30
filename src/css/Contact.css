@@ -85,9 +85,14 @@
     gap: 2rem;
     padding: 1rem;
   }
-  
+  .contact-us-about {
+    padding: 0.7rem 0;
+  }
   .section-left img {
     width: 100%;
+  }
+  .contact-top .img-one{
+    margin-top: -12px;
   }
 }
 
@@ -97,7 +102,8 @@
     padding: 2rem 1rem;
   }
 
-  .title-one, .title-two {
+  .title-one,
+  .title-two {
     font-size: 25px;
   }
 
@@ -113,12 +119,15 @@
     flex-direction: column;
     align-items: center;
   }
-
+  .contact-us-about {
+    padding: 0.5rem 0;
+  }
   .section-left img {
     width: 70%;
   }
 
-  .title-one, .title-two {
+  .title-one,
+  .title-two {
     font-size: 22px;
   }
 
@@ -139,7 +148,8 @@
     width: 80%;
   }
 
-  .title-one, .title-two {
+  .title-one,
+  .title-two {
     font-size: 20px;
   }
 
@@ -161,7 +171,8 @@
     width: 90%;
   }
 
-  .title-one, .title-two {
+  .title-one,
+  .title-two {
     font-size: 18px;
   }
 
@@ -177,7 +188,8 @@
     padding: 0.5rem;
   }
 
-  .title-one, .title-two {
+  .title-one,
+  .title-two {
     font-size: 16px;
   }
 
@@ -194,7 +206,7 @@
     gap: 2rem;
     padding: 1rem;
   }
-  
+
   .section-left img {
     width: 100%;
   }
