@@ -149,7 +149,7 @@ function Services() {
               display: "flex",
               justifyContent: "space-between",
               alignItems: "end",
-              marginBottom: "2rem",
+              marginBottom: "1rem",
             }}
           >
             <div
@@ -157,7 +157,7 @@ function Services() {
                 display: "flex",
                 gap: "10px",
                 alignItems: "center",
-               
+                
               }}
             >
               <h3 className="title-two">Ayurvedic</h3>

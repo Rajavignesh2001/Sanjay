@@ -87,12 +87,17 @@
     gap: 2rem;
   }
   .nav-logo {
-    width: 110px;
+    width: 90px;
     margin: 20px;
     background-color: #ffffff;
 
   }
-  
+  .banner-btm{
+    margin-top: -30px;
+  }
+  .services-section{
+    margin-top: -30px;
+  }
   .nav-bottom {
     display: none;
   }
