@@ -12,10 +12,9 @@
   color: white;
 }
 .nav-logo {
-  width: 107px;
+  width: 88px;
   object-fit: cover;
   margin-left: 6rem;
- 
 }
 
 .Navbar > .nav-items > a {
@@ -61,7 +60,6 @@
 .Navbar > .nav-items > a.active {
   font-size: 1.2rem; /* Set text color */
   font-weight: bold; /* Make the font bold */
-  
 }
 
 /* Add transitions for smooth highlighting effect */
@@ -90,12 +88,11 @@
     width: 90px;
     margin: 20px;
     background-color: #ffffff;
-
   }
-  .banner-btm{
+  .banner-btm {
     margin-top: -30px;
   }
-  .services-section{
+  .services-section {
     margin-top: -30px;
   }
   .nav-bottom {
